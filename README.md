@@ -36,7 +36,7 @@
 &emsp; &emsp;&emsp; &emsp;通过反向传播来求解梯度
  <br/>
 三、运行<br>
-&emsp; &emsp;&emsp; &emsp;首先，加载数据x_train_npz, t_train_npz, x_test_npz, t_test_npz = load_data(path)，并对数据预处理<br>
-&emsp; &emsp;&emsp; &emsp;其次，建立模型network = Network(input_size, hidden_size, output_size)<br>
-&emsp; &emsp;&emsp; &emsp;再次，梯度下降，每次循环随机选取N个样本加入迭代、调整学习率并更新参数、计算损失函数、记录测试集的准确率<br>
-&emsp; &emsp;&emsp; &emsp;最后，绘制学习率下降曲线、测试集准确率曲线、损失函数曲线、可视化参数<br>
+&emsp; &emsp;首先，加载数据x_train_npz, t_train_npz, x_test_npz, t_test_npz = load_data(path)，并对数据预处理<br>
+&emsp; &emsp;其次，建立模型network = Network(input_size, hidden_size, output_size)<br>
+&emsp; &emsp;再次，梯度下降，每次循环随机选取N个样本加入迭代、调整学习率并更新参数、计算损失函数、记录测试集的准确率<br>
+&emsp; &emsp;最后，绘制学习率下降曲线、测试集准确率曲线、损失函数曲线、可视化参数<br>
