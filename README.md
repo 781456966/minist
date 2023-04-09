@@ -41,4 +41,4 @@
 &emsp; &emsp;再次，梯度下降，每次循环随机选取N个样本加入迭代、调整学习率并更新参数、计算损失函数、记录测试集的准确率<br>
 &emsp; &emsp;最后，绘制学习率下降曲线、测试集准确率曲线、损失函数曲线、可视化参数<br>
  <br/>
- &emsp; &emsp;function.py储存了需要用的函数，model.py是设定的模型mnist.npz是数据集
+ &emsp; &emsp;function.py储存了需要用的函数，model.py是设定的模型，mnist.npz是数据集
